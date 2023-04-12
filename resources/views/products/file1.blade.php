@@ -12,5 +12,6 @@
   </head>
   <body>
       <div>Product View</div>
+      <button><a href="{{action('ProductController@create')}}">Add Product</a></button>
   </body>
 </html>

@@ -11,7 +11,7 @@ class ProductController extends Controller
      */
      public function index()
     {
-        //
+        return view('products.file1');
     }
 
     /**
@@ -19,7 +19,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view('products.file3');
     }
 
     /**
@@ -43,7 +43,7 @@ class ProductController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return view('products.file2');
     }
 
     /**
